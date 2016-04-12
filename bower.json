@@ -1,6 +1,6 @@
 {
   "name": "cirrus-tlContinuousScroll",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "authors": [
     "Pascal Bertschi <pb@triarc-labs.com>"
   ],
@@ -24,6 +24,6 @@
   "endpoint": "https://github.com/triarc/cirrus-tlContinuousScroll.git",
   "dependencies": {
     "cirrus-tlArray": "^0.0.8",
-    "cirrus-tlUtils": "^0.3.1"
+    "cirrus-tlUtils": "^0.3.2"
   }
 }

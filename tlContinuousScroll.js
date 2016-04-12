@@ -76,7 +76,7 @@ angular.module('tlContinuousScroll').run(['$templateCache', function($templateCa
   'use strict';
 
   $templateCache.put('tlContinuousScroll/continuousScroll.html',
-    "<div tl-full-height><div tl-when-scrolled=\"scrollCtrl.search()\" tl-has-scroll-content=\"scrollCtrl.isScrolling\" style=\"overflow-x: hidden; height: 100%\"><div><div ng-transclude></div><ng-include src=\"config().noItemTemplate\" ng-if=\"scrollCtrl.loaded && config().items.length === 0\"></ng-include><div class=\"text-center\" ng-if=\"!scrollCtrl.loaded && config().items.length === 0\">{{'_loading' | translate }}...</div></div></div></div>"
+    "<div tl-full-height><div tl-when-scrolled=\"scrollCtrl.search()\" tl-has-scroll-content=\"scrollCtrl.isScrolling\" style=\"overflow-x: hidden; height: 100%\"><div style=\"display: table\"><div ng-transclude></div><ng-include src=\"config().noItemTemplate\" ng-if=\"scrollCtrl.loaded && config().items.length === 0\"></ng-include><div class=\"text-center\" ng-if=\"!scrollCtrl.loaded && config().items.length === 0\">{{'_loading' | translate }}...</div></div></div></div>"
   );
 
 }]);
