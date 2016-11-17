@@ -1,7 +1,7 @@
 declare module Triarc.Web {
     interface IContinuousScrollSearchArg {
-        skip: number;
-        take: number;
+        skip?: number;
+        take?: number;
     }
     interface IContinuousScrollConfig<TSearchArg extends IContinuousScrollSearchArg> {
         searchLimit: number;
